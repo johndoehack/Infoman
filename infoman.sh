@@ -239,7 +239,7 @@ tput bold
 						tput sgr0
 						tput clear
 						nmap  $var
-						nmap $var >>/root/project/outputs/Network-Scanner/Nmap-Pentesters/$"(date +"%Y_%m_%d_%I_%M_%p").log"
+						nmap $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Pentesters/$"(date +"%Y_%m_%d_%I_%M_%p").log"
 						tput bold
 						tput setaf 1
 						echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Pentesters"
@@ -314,7 +314,7 @@ tput bold
 						tput clear
 						case $n in
 							1)nmap -sn $var
-	 						nmap -sn  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	 						nmap -sn  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 						tput bold
 	 						tput setaf 1
 	 						echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -323,7 +323,7 @@ tput bold
 							tput sgr0;nmapf
 							;;
 							2)nmap -sS $var
-	  nmap -sS  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	  nmap -sS  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -333,7 +333,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	3)nmap -sT $var
-	nmap -sT  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	nmap -sT  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -343,7 +343,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	4)nmap -sU $var
-		nmap -sU  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		nmap -sU  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -353,7 +353,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	5)nmap -sV $var
-	 nmap -sV  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	 nmap -sV  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -363,7 +363,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	6)nmap -O $var
-	nmap -O  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	nmap -O  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -373,7 +373,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	7)nmap -n $var
-	  nmap -n  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	  nmap -n  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -383,7 +383,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	8)nmap -6 $var
-	  nmap -6  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	  nmap -6  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -393,7 +393,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	9)nmap -A $var
-	  nmap -A  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	  nmap -A  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -403,7 +403,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	10)nmap -Pn $var
-	   nmap -Pn  $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -Pn  $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -413,7 +413,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	11)nmap -PB $var
-	   nmap -PB $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -PB $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -423,7 +423,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	12)nmap -PS $var
-	   nmap -PS $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -PS $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -433,7 +433,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	13)nmap -PE $var
-	   nmap -PE $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -PE $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -443,7 +443,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	14)nmap -PT $var
-	   nmap -PT $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -PT $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -453,7 +453,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	15)nmap -PM $var
-	   nmap -PM $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -PM $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	 tput bold
 	 tput setaf 1
 	 echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -463,7 +463,7 @@ tput bold
 	tput sgr0;nmapf
 	;;
 	16)nmap -F $var
-	   nmap -F $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -F $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	   tput bold
 	   tput setaf 1
 	   echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -473,7 +473,7 @@ tput bold
 	   tput sgr0;nmapf
 	;;
 	17)nmap -p- $var
-	   nmap -p- $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -p- $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	   tput bold
 	   tput setaf 1
 	   echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -483,7 +483,7 @@ tput bold
 	   tput sgr0;nmapf
 	;;
 	18)nmap -sV -sC $var
-	   nmap -sV -sC $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -sV -sC $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	   tput bold
 	   tput setaf 1
 	   echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -493,7 +493,7 @@ tput bold
 	   tput sgr0;nmapf
 	;;
 	19)nmap -sV --script=smb* $var
-	   nmap -sV --script=smb* $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -sV --script=smb* $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	   tput bold
 	   tput setaf 1
 	   echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -503,7 +503,7 @@ tput bold
            tput sgr0;nmapf
 	;;
 	20)nmap -Pn --script vuln $var
-	   nmap -Pn --script vuln $var >>/root/project/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+	   nmap -Pn --script vuln $var >>/root/Infoman/outputs/Network-Scanner/Nmap-Begginers/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 	   tput bold
 	   tput setaf 1
 	   echo " Your Result is Saved to Directory nmap/Outputs/Nmap-Beginners"
@@ -573,7 +573,7 @@ tput clear
 		tput setaf 3
 		tput cup 21
 		whois $var
-		whois $var >>/root/project/outputs/IP-Enumeration/IP-Lookup/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		whois $var >>/root/Infoman/outputs/IP-Enumeration/IP-Lookup/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory ipenum/Outputs/whois."
@@ -600,7 +600,7 @@ tput clear
 		tput setaf 3
 		tput cup 20
 		traceroute $var
-		traceroute $var >>/root/project/outputs/IP-Enumeration/Traceit/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		traceroute $var >>/root/Infoman/outputs/IP-Enumeration/Traceit/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved in Directory ipenum/Outputs/Traceit."
@@ -654,7 +654,7 @@ tput clear
 		tput setaf 3
 		tput cup 21
 		dnsenum $var
-		dnsenum $var >>/root/project/outputs/Domain-Enumeration/DnsEnum/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		dnsenum $var >>/root/Infoman/outputs/Domain-Enumeration/DnsEnum/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory ipenum/Outputs/whois."
@@ -670,7 +670,7 @@ tput clear
 		tput setaf 3
 		tput cup 21
 		dnsmap $var
-		dnsmap $var >>/root/project/outputs/Domain-Enumeration/Dnsmap/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		dnsmap $var >>/root/Infoman/outputs/Domain-Enumeration/Dnsmap/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory ipenum/Outputs/whois."
@@ -686,7 +686,7 @@ tput clear
 		tput setaf 3
 		tput cup 21
 		wafw00f $var
-		wafw00f $var >>/root/project/outputs/Domain-Enumeration/Waaf-W00f/"$(date +"%Y_%m_%d_%I_%M_%p").log"
+		wafw00f $var >>/root/Infoman/outputs/Domain-Enumeration/Waaf-W00f/"$(date +"%Y_%m_%d_%I_%M_%p").log"
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory ipenum/Outputs/whois."
@@ -780,7 +780,7 @@ read -p " choose your source:" n
 
 case $n in
 	1)clear
-		theharvester -d $var -l $var1 -b google -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b google -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -790,7 +790,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	2)clear
-		theharvester -d $var -l $var1 -b linkedin -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b linkedin -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -800,7 +800,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	3)clear
-		theharvester -d $var -l $var1 -b twitter -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b twitter -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -810,7 +810,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	4)clear && clear
-		theharvester -d $var -l $var1 -b bing -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b bing -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -820,7 +820,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	5)clear && clear
-		theharvester -d $var -l $var1 -b yahoo -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b yahoo -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -830,7 +830,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	6)clear && clear
-		theharvester -d $var -l $var1 -b virustotal -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b virustotal -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -840,7 +840,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	7)clear && clear
-		theharvester -d $var -l $var1 -b baidu -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b baidu -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -850,7 +850,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	8)clear && clear
-		theharvester -d $var -l $var1 -b bingapi -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b bingapi -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -860,7 +860,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	9)clear && clear
-		theharvester -d $var -l $var1 -b dogpile -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b dogpile -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -870,7 +870,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	10)clear && clear
-		theharvester -d $var -l $var1 -b googlecse -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b googlecse -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -880,7 +880,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	11)clear && clear
-		theharvester -d $var -l $var1 -b googleplus -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b googleplus -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -890,7 +890,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	12)clear && clear
-		theharvester -d $var -l $var1 -b google-profiles -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b google-profiles -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -900,7 +900,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	13)clear && clear
-		theharvester -d $var -l $var1 -b pgp -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b pgp -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -910,7 +910,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	14)clear && clear
-		theharvester -d $var -l $var1 -b vhost -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b vhost -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -920,7 +920,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	15)clear && clear
-		theharvester -d $var -l $var1 -b threatcrowd -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b threatcrowd -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -930,7 +930,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	16)clear && clear
-		theharvester -d $var -l $var1 -b crtsh -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b crtsh -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -940,7 +940,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	17)clear && clear
-		theharvester -d $var -l $var1 -b netcraft -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b netcraft -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
@@ -950,7 +950,7 @@ case $n in
 		tput sgr0;harvester
 		;;
 	18)clear && clear
-		theharvester -d $var -l $var1 -b all -h 2>&1 | tee  /root/project/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
+		theharvester -d $var -l $var1 -b all -h 2>&1 | tee  /root/Infoman/outputs/TheHarvester/$(date +"%Y_%m_%d_%I_%M_%p").txt
 		tput bold
 		tput setaf 1
 		echo " Your Result is Saved to Directory Domain-Email Info Grepper/Outputs/"
