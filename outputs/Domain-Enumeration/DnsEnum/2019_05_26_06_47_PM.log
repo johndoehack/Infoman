@@ -1,0 +1,31 @@
+dnsenum VERSION:1.2.4
+[1;34m
+-----   reva.edu.in   -----
+[0m[1;31m
+
+Host's addresses:
+__________________
+
+[0mreva.edu.in.                             4431     IN    A        45.40.142.25
+[1;31m
+
+Name Servers:
+______________
+
+[0mns1.reva.edu.in.                         9820     IN    A        45.40.142.25
+[1;31m
+
+Mail (MX) Servers:
+___________________
+
+[0mreva-edu-in.mail.protection.outlook.com. 6        IN    A        104.47.125.36
+reva-edu-in.mail.protection.outlook.com. 6        IN    A        104.47.126.36
+[1;31m
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+[0m
+Trying Zone Transfer for reva.edu.in on ns1.reva.edu.in ... 
+
+brute force file not specified, bay.

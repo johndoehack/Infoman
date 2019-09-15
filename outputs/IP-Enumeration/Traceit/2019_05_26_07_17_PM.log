@@ -1,0 +1,16 @@
+traceroute to reva.edu.in (45.40.142.25), 30 hops max, 60 byte packets
+ 1  _gateway (172.24.0.1)  0.725 ms  0.788 ms  0.961 ms
+ 2  192.168.254.1 (192.168.254.1)  0.492 ms  0.378 ms  0.389 ms
+ 3  203.90.116.225 (203.90.116.225)  9.512 ms 118.185.203.97 (118.185.203.97)  4.149 ms nsg-static-121.170.75.182-airtel.com (182.75.170.121)  2.819 ms
+ 4  125.16.141.49 (125.16.141.49)  9.100 ms 182.19.106.198 (182.19.106.198)  23.846 ms *
+ 5  182.79.176.205 (182.79.176.205)  158.013 ms ae31-100-xcr1.mlu.cw.net (213.38.254.33)  134.060 ms ldn-b4-link.telia.net (62.115.162.232)  167.996 ms
+ 6  * mno-b2-link.telia.net (213.248.92.125)  190.765 ms ldn-bb4-link.telia.net (62.115.134.138)  248.576 ms
+ 7  182.79.177.101 (182.79.177.101)  33.663 ms prs-bb3-link.telia.net (62.115.135.70)  286.448 ms nyk-bb4-link.telia.net (62.115.113.20)  259.429 ms
+ 8  * ash-bb4-link.telia.net (62.115.112.242)  232.910 ms ash-bb3-link.telia.net (62.115.141.244)  243.755 ms
+ 9  las-b24-link.telia.net (62.115.114.86)  278.972 ms  248.206 ms las-b24-link.telia.net (62.115.121.220)  260.802 ms
+10  ldn-bb4-link.telia.net (62.115.134.138)  250.465 ms ldn-bb3-link.telia.net (62.115.134.134)  250.382 ms hosteurope-ic-338676-las-b24.c.telia.net (62.115.171.243)  303.398 ms
+11  148.72.32.16 (148.72.32.16)  255.099 ms nyk-bb4-link.telia.net (62.115.113.20)  258.641 ms 148.72.32.16 (148.72.32.16)  289.301 ms
+12  be38.trmc0215-01.ars.mgmt.phx3.gdg (184.168.0.69)  270.624 ms ash-bb4-link.telia.net (62.115.136.201)  251.854 ms be38.trmc0215-01.ars.mgmt.phx3.gdg (184.168.0.69)  296.625 ms
+13  be100.125.trmd0215-01.ars.mgmt.phx3.gdg (216.69.188.30)  254.216 ms las-b24-link.telia.net (62.115.121.220)  249.048 ms be100.125.trmd0215-01.ars.mgmt.phx3.gdg (216.69.188.30)  303.906 ms
+14  ip-208-109-112-125.ip.secureserver.net (208.109.112.125)  262.655 ms hosteurope-ic-338676-las-b24.c.telia.net (62.115.171.243)  269.272 ms ip-208-109-112-125.ip.secureserver.net (208.109.112.125)  287.531 ms
+15  ip-45-40-142-25.ip.secureserver.net (45.40.142.25)  253.698 ms 148.72.32.16 (148.72.32.16)  283.321 ms ip-45-40-142-25.ip.secureserver.net (45.40.142.25)  297.654 ms
