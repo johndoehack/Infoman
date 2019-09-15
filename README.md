@@ -28,7 +28,9 @@ THE ABOVE ABOVE TOOLS ARE MERGED INTO install.sh, IF YOU RUN install.sh FILE ALL
 2) NEED AN ACTIVE INTERNET CONNECTION TO RUN THE FRAMEWORK.
 
 ## INSTALLING THE TOOL ##
-1)RUN ./install.sh
+1)Give Permissions to the installtion file to run -> chmod +x install.sh
+2)RUN ./install.sh
 
 ## RUNNING THE FRAMEWORK ##
+1)Give Permissions to the main tool to run -> chmod +x infoman.sh
 2)Run ./infoman.sh
