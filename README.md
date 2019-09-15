@@ -29,8 +29,10 @@ THE ABOVE ABOVE TOOLS ARE MERGED INTO install.sh, IF YOU RUN install.sh FILE ALL
 
 ## INSTALLING THE TOOL ##
 1)Give Permissions to the installtion file to run -> chmod +x install.sh
+
 2)RUN ./install.sh
 
 ## RUNNING THE FRAMEWORK ##
 1)Give Permissions to the main tool to run -> chmod +x infoman.sh
+
 2)Run ./infoman.sh
