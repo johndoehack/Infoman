@@ -85,7 +85,7 @@ echo "Mac Address:"
 
 tput cup 10 68
 tput setaf 7
-ifconfig | cut -d "r" -f2 | cut -d "t" -f1 -s | sed -n 3p
+ifconfig | grep ether | sed -n 1p | cut -d "r" -f2 | cut -d "t" -f1
 
 tput sgr0
 
